@@ -7,16 +7,17 @@ body {
     padding: 0;
 }
 
+/*header section*/
 header {
     background-color: rgb(25, 25, 25);
-    padding-bottom: 5px;
-
+    padding-bottom: 1px;
 }
 
 h1 {
     text-align: center;
     color: rgb(210, 210, 210);
     margin-top: 0;
+    font-size: 46px;
 }
 
 header ul {
@@ -25,13 +26,39 @@ header ul {
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-left: 0px;
+    padding: 0;
     color: rgb(210, 210, 210);
 }
 
 header li {
     border-bottom: 1px solid rgba(150, 150, 150, .5);
-    width: 50%;
+    width: 35%;
     margin: 5px auto;
     padding-bottom: 3px;
+}
+
+/*about me Section*/
+
+main {
+    background-color: aliceblue;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid rgb(25, 25, 25);
+    display: block;
+    margin: 0 auto;
+}
+
+section p {
+    text-align: center;
 }
