@@ -1,10 +1,15 @@
 * {
     font-family: helvetica;
-}
-
-body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
 }
 
 /*header section*/
@@ -40,7 +45,7 @@ header li {
 /*about me Section*/
 
 main {
-    background-color: aliceblue;
+    background-color: rgb(240, 248, 255);
     padding-top: 1px;
     padding-bottom: 1px;
 }
@@ -63,6 +68,8 @@ section p {
     text-align: center;
 }
 
+
+
 /*apps section*/
 
 #applications div {
@@ -80,4 +87,24 @@ section p {
 .app1 img {
     width: 85vw;
     height: 25vh;
+}
+
+/*contact section*/
+
+.contact ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.contact li {
+    border-bottom: 1px solid rgba(150, 150, 150, .5);
+    width: 35%;
+    margin: 5px auto;
+    padding-bottom: 3px;
+    width: 200px;
+}
+
+.contact li:first-child {
+    width: 300px;
 }
