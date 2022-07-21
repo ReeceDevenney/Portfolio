@@ -1,0 +1,37 @@
+* {
+    font-family: helvetica;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(25, 25, 25);
+    padding-bottom: 5px;
+
+}
+
+h1 {
+    text-align: center;
+    color: rgb(210, 210, 210);
+    margin-top: 0;
+}
+
+header ul {
+    list-style: none;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-left: 0px;
+    color: rgb(210, 210, 210);
+}
+
+header li {
+    border-bottom: 1px solid rgba(150, 150, 150, .5);
+    width: 50%;
+    margin: 5px auto;
+    padding-bottom: 3px;
+}
