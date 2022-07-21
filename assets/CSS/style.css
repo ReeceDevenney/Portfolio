@@ -45,12 +45,12 @@ main {
     padding-bottom: 1px;
 }
 
-section h2 {
+h2 {
     text-align: center;
     font-size: 40px;
 }
 
-img {
+section img {
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -61,4 +61,23 @@ img {
 
 section p {
     text-align: center;
+}
+
+/*apps section*/
+
+#applications div {
+    display: flex;
+    justify-content: center;
+}
+
+.apps img {
+    width: 80vw;
+    height: 20vh;
+    margin: 10px auto;
+    border: 2px solid rgb(25, 25, 25);
+}
+
+.app1 img {
+    width: 85vw;
+    height: 25vh;
 }
