@@ -82,12 +82,13 @@ section p {
 
 /*apps section*/
 
-#applications div {
+/* #applications div {
     display: flex;
     justify-content: center;
-}
+} */
 
 .apps img {
+    display: block;
     width: 80vw;
     height: 20vh;
     margin: 10px auto;
@@ -95,8 +96,12 @@ section p {
 }
 
 .app1 img {
-    width: 85vw;
+    width: 85%;
     height: 25vh;
+}
+
+h3 {
+    text-align: center;
 }
 
 /*contact section*/
