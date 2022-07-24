@@ -82,11 +82,6 @@ section p {
 
 /*apps section*/
 
-/* #applications div {
-    display: flex;
-    justify-content: center;
-} */
-
 .apps img {
     display: block;
     width: 80vw;
@@ -115,10 +110,9 @@ h3 {
 
 .contact li {
     border-bottom: 1px solid rgba(150, 150, 150, .5);
-    width: 35%;
+    width: 300px;
     margin: 5px auto;
     padding-bottom: 3px;
-    width: 200px;
 }
 
 .contact li:first-child {
@@ -142,5 +136,46 @@ h3 {
     .app1 img {
         width: 85%;
         height: 35vh;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    h3 {
+        font-size: 25px;
+    }
+
+    .app-pictures {
+        display: flex;
+    }
+
+    .app-pictures img {
+        opacity: .5;
+    }
+
+    .app-pictures img:hover {
+        opacity: 1;
+    }
+
+    .app1 img {
+        width: 90%;
+        height: 55vh;
+    }
+
+    .app2 img {
+        width: 560px;
+        min-width: 0%;
+    }
+    .app3 img {
+        width: 560px;
+        min-width: 0%;
+    }
+
+    h2 {
+        text-align: left;
+    }
+
+    .contact ul {
+        text-align: left;
+        width: 30%;
     }
 }
