@@ -75,7 +75,9 @@ section img {
 
 section p {
     text-align: center;
+    margin: 0 auto;
     margin-top: 15px;
+    width: 80%;
 }
 
 
@@ -182,5 +184,21 @@ h3 {
     .contact ul {
         text-align: left;
         width: 30%;
+    }
+
+    .bio {
+        display: flex;
+        width: 80%;
+        margin: 50px auto;
+        align-items: center;
+        
+    }
+
+    .bio p {
+        font-size: 24px;
+}
+
+    .bio img {
+        margin-right: 25px;
     }
 }
