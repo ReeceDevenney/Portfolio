@@ -157,16 +157,21 @@ h3 {
     }
 
     .app1 img {
-        width: 90%;
+        width: 80%;
         height: 55vh;
+        margin-left: 15%;
+    }
+
+    .secondary-apps {
+        width: 60%;
     }
 
     .app2 img {
-        width: 560px;
+        width: 70%;
         min-width: 0%;
     }
     .app3 img {
-        width: 560px;
+        width:70%;
         min-width: 0%;
     }
 
